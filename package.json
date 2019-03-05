@@ -1,0 +1,24 @@
+{
+  "name": "aura-website",
+  "version": "1.0.0",
+  "description": "Online Aura Website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ndanev/Aura-Website.git"
+  },
+  "author": "Nemanja Danev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ndanev/Aura-Website/issues"
+  },
+  "homepage": "https://github.com/ndanev/Aura-Website#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.10"
+  }
+}
