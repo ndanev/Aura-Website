@@ -18,7 +18,7 @@ body, html {
     height: 100px;
     background-color: rgba(0,0,0, 0.5);
     padding: 0 100px;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
 }
@@ -185,7 +185,7 @@ body, html {
 
 .second-section-box hr {
     height: 2px;
-    background-color: rgba(25,136,255, 0.2);
+    background-color: rgba(25,136,255, 0.1);
     margin-bottom: 50px;
 }
 
@@ -267,6 +267,10 @@ body, html {
     margin-bottom: 50px;
 }
 
+.third-section-content-1 h3 span {
+    color: #1988ff;
+}
+
 .third-section-content-1 i {
     font-size: 3em;
     color: #1988ff;
@@ -326,4 +330,9 @@ body, html {
 
 #social-media a {
     margin: 0 10px;
+}
+
+#map {
+    height: 400px;
+    width: 100%;
 }
