@@ -6,14 +6,22 @@
 
 body, html {
     height: 100%;
-  }
+}
+
+
+/* ============= */
+/* FIRST SECTION */
+/* ============= */
 
 .main-navbar {
     width: 100%;
     height: 100px;
-    /* background-color: rgba(95,158,198); */
-    background-color: rgba(0,123,255, 0.8);
+    /* background-color: rgba(25,136,255, 0.9); */
+    background-color: rgba(0,0,0, 0.7);
     padding: 0 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 .main-navbar h3 {
@@ -27,15 +35,18 @@ body, html {
 
 #first-section img {
     width: 100%;
-    height: 87.5vh;
+    /* height: 87.5vh; */
+    height: 100vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     filter: brightness(30%);
-    position: absolute;
+    /* position: absolute;
     top: 100px;
-    left: 0;
-    z-index: -1;
+    left: 0; */
+    /* z-index: -1; */
+    /* object-fit: cover;
+    object-position: 50% 50%; */
 }
 
 .list-of-links {
@@ -54,8 +65,8 @@ body, html {
 
 .list-of-links ul a:hover {
     border-bottom: 2px solid white;
-    transition: all .4s ease;
-    -webkit-transition: all .4s ease;
+    transition: all .2s ease;
+    -webkit-transition: all .2s ease;
 
 }
 
@@ -86,8 +97,14 @@ body, html {
     padding: 10px 20px;
     color: white;
     font-size: 20px;
-    background-color: rgba(0,123,255, 0.9);
+    background-color: rgba(25,136,255, 0.8);
     border-radius: 30px;
+}
+
+.first-section-content a:hover {
+    background-color: #1988ff;
+    transition: all .6s ease;
+    -webkit-transition: all .6s ease;
 }
 
 .arrow {
@@ -107,8 +124,72 @@ body, html {
 }
 
 .arrow a i:hover {
-    color: rgba(0,123,255, 0.9);
+    color: rgba(25,136,255, 0.8);
     font-size: 45px;
     transition: all .8s ease;
     -webkit-transition: all .8s ease;
+}
+
+/* ============= */
+/* SECOND SECTION */
+/* ============= */
+
+#second-section {
+    background-color: #f1f1f1;
+}
+
+.second-section-box {
+    padding: 150px 100px;
+}
+
+.second-section-content-1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.second-section-content-2 {
+    margin-bottom: 50px;
+}
+
+.second-section-content-1 h2 {
+    text-transform: uppercase;
+    font-size: 3em;
+    margin-bottom: 50px;
+}
+
+.second-section-content-1 h4 {
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.second-section-content-1 i {
+    font-size: 3em;
+    color: #1988ff;
+}
+
+.second-section-content-2 p:first-child {
+    font-size: 25px;
+}
+
+.second-section-box hr {
+    height: 2px;
+    background-color: rgba(25,136,255, 0.2);
+    margin-bottom: 50px;
+}
+
+.second-section-content-3 {
+    margin-bottom: 50px;
+}
+
+.second-section-content-3 p strong {
+    font-size: 25px;
+}
+
+.second-section-content-4 {
+    margin-bottom: 50px;
+}
+
+.second-section-content-4 p strong {
+    font-size: 25px;
 }
