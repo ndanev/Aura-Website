@@ -17,5 +17,9 @@ function initMap() {
         title: 'Aura Group'
     });
 
-
 }
+
+// functionality for scrilling down 
+$('#arrow-btn').on('click', () => {
+    $('html, body').animate({scrollTop: 810}, '200');
+});
