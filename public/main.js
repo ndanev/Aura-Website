@@ -23,3 +23,7 @@ function initMap() {
 $('#arrow-btn').on('click', () => {
     $('html, body').animate({scrollTop: 810}, '200');
 });
+
+$('.logo').on('click', () => {
+    $('html, body').animate({scrollTop: 0});
+})
