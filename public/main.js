@@ -1,5 +1,5 @@
 
-
+// init google map
 function initMap() {
 
     var lat = parseFloat('44.7866');

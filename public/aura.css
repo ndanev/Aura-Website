@@ -1,7 +1,8 @@
 * {
-    font-family: 'Nunito Sans', sans-serif;
+    /* font-family: 'Nunito Sans', sans-serif; */
     padding: 0;
     margin: 0;
+    font-family: 'montserrat', sans-serif;
 }
 
 body, html {
@@ -52,6 +53,7 @@ body, html {
     line-height: 100px;
     font-weight: 600;
     letter-spacing: 2px;
+    font-size: 15px;
 }
 
 .list-of-links ul a:last-child {
@@ -105,11 +107,11 @@ body, html {
 
 .first-section-content a {
     text-decoration: none;
-    padding: 10px 20px;
+    padding: 13px 25px;
     color: white;
     font-size: 20px;
     background-color: rgba(25,136,255, 0.8);
-    border-radius: 30px;
+    /* border-radius: 30px; */
 }
 
 .first-section-content a:hover {
@@ -139,6 +141,18 @@ body, html {
     font-size: 45px;
     transition: all .8s ease;
     -webkit-transition: all .8s ease;
+}
+
+.logo {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-right: 20px;
+}
+
+.logo i {
+    font-size: 50px;
+    color: #1988ff;
 }
 
 /* ============= */
@@ -171,7 +185,7 @@ body, html {
 .second-section-content-1 h4 {
     text-transform: uppercase;
     font-weight: 600;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .second-section-content-1 i {
@@ -205,6 +219,7 @@ body, html {
     height: 300px;
     width: 100%;
     position: relative;
+    z-index: -1;
 }
 
 .info-content img {
@@ -264,7 +279,7 @@ body, html {
 .third-section-content-1 h3 {
     text-transform: uppercase;
     font-size: 2.5em;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .third-section-content-1 h3 span {
@@ -312,8 +327,20 @@ body, html {
     color: 	#3b5998;
 }
 
+.fa-facebook-square:hover {
+    text-decoration: none;
+}
+
+.fa-facebook-square:hover {
+    text-decoration: none;
+}
+
 .fa-instagram {
     color:  #e95950;
+}
+
+.fa-instagram:hover {
+    text-decoration: none;
 }
 
 #stars {
@@ -333,6 +360,75 @@ body, html {
 }
 
 #map {
-    height: 400px;
+    height: 500px;
     width: 100%;
+}
+
+/* ============= */
+/* FOURTH SECTION */
+/* ============= */
+
+#fourth-section {
+    background-color: #f1f1f1;
+}
+
+.fourth-section-box {
+    padding: 100px 100px;
+}
+
+.fourth-section-content-1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.fourth-section-content-1 h3 {
+    text-transform: uppercase;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+
+}
+
+.fourth-section-content-1 h3 span {
+    color: #1988ff;
+}
+
+.fourth-section-content-1 i {
+    color: #1988ff;
+    font-size: 3em;
+    margin-bottom: 50px;
+}
+
+.job-card {
+    background-color: white;
+    padding: 40px;
+    text-align: center;
+    width: 300px;
+    height: 500px;
+
+}
+
+.job-card a i {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.job-card a:hover {
+    text-decoration: none;
+}
+
+.job-card h4 {
+    margin-bottom: 20px;
+}
+
+.job-card h6  {
+    color: #1988ff;
+    margin-bottom: 20px;
+}
+
+.job-card button {
+    background-color: #1988ff;
+    color: white;
+    border: none;
+    padding: 7px 15px;
+    border-radius: 20px;
 }
