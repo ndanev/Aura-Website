@@ -373,7 +373,7 @@ body, html {
 }
 
 .fourth-section-box {
-    padding: 100px 100px;
+    padding: 50px 100px;
 }
 
 .fourth-section-content-1 {
@@ -431,4 +431,95 @@ body, html {
     border: none;
     padding: 7px 15px;
     border-radius: 20px;
+}
+
+.fourth-section-content-2 {
+    margin: 100px 0;
+    margin-bottom: 50px;
+}
+
+.fourth-section-content-2 p strong {
+    font-size: 25px;
+}
+
+.fourth-section-box hr {
+    height: 2px;
+    background-color: rgba(25,136,255, 0.1);
+}
+
+/* ============= */
+/* FIFTH SECTION */
+/* ============= */
+
+#fifth-section {
+    background-color: #f1f1f1;
+}
+
+.fifth-section-box {
+    padding: 100px 100px;
+}
+
+.fifth-section-content-1 {
+    text-align: center;
+}
+
+.fifth-section-content-1 h3 {
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    font-size: 2em;
+}
+
+.fifth-section-content-1 h5 {
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.fifth-section-content-1 h5 span {
+    color: #1988ff;
+}
+
+.fifth-section-content-1 i {
+    font-size: 3em;
+    color: #1988ff;
+    margin-bottom: 100px;
+}
+
+.form-group .input {
+    height: 50px;
+}
+
+.contact-info {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contact-info p span {
+    color: #1988ff;
+}
+
+.contact-info h4 {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.contact-info h4 i {
+    color: #1988ff;
+}
+
+.contact-info i {
+    color: #1988ff;
+    
+}
+
+.contact-btn {
+    padding: 15px;
+    color: white;
+    background-color: #1988ff;
+    border: none;
+    width: 100%;
+    margin-top: 12px;
 }
