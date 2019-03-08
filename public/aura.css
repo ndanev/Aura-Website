@@ -18,9 +18,10 @@ body, html {
     height: 100px;
     background-color: rgba(0,0,0, 0.5);
     padding: 0 100px;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
+    /* box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3); */
 }
 
 .main-navbar h3 {
@@ -186,7 +187,7 @@ body, html {
 /* ============= */
 
 #second-section {
-    background-color: #f1f1f1;
+    /* background-color: #f1f1f1; */
 }
 
 .second-section-box {
@@ -314,11 +315,19 @@ body, html {
     color: #1988ff;
 }
 
+.index {
+    z-index: -1;
+}
+
+
 .card {
     padding: 35px;
     text-align: center;
     border: none;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: static;
+    z-index: -1;
+
 }
 
 .card:hover {
@@ -451,6 +460,13 @@ body, html {
 
 }
 
+.col-md-4 {
+    position: static;
+}
+.col-md-3 {
+    position: static;
+}
+
 .job-card a i {
     font-size: 50px;
     margin-bottom: 20px;
@@ -497,11 +513,11 @@ body, html {
 /* ============= */
 
 #fifth-section {
-    background-color: #f1f1f1;
+    /* background-color: #f1f1f1; */
 }
 
 .fifth-section-box {
-    padding: 100px 100px;
+    padding: 150px 100px;
 }
 
 .fifth-section-content-1 {
@@ -575,7 +591,8 @@ body, html {
 }
 
 .fifth-section-3 {
-    margin: 100px 0;
+    padding: 100px 0;
+    padding-bottom: 50px;
     text-align: center;
 }
 
