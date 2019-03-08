@@ -128,6 +128,9 @@ body, html {
     -webkit-animation: 3s arrow infinite ease;
 }
 
+
+/* arrow down animation */
+
 @keyframes arrow {
     0%, 100% {
         bottom: 0px;
@@ -145,6 +148,9 @@ body, html {
         bottom: 20px;
     }
 }
+
+/* -------------------- */
+
 
 .arrow a {
     text-decoration: none;
@@ -283,12 +289,9 @@ body, html {
 /* THIRD SECTION */
 /* ============= */
 
-#third-section {
-    background-color: #f1f1f1;
-}
-
 .third-section-box {
     padding: 150px 100px;
+    
 }
 
 .third-section-content-1 {
@@ -312,9 +315,29 @@ body, html {
 }
 
 .card {
-    padding: 40px;
+    padding: 35px;
     text-align: center;
     border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+}
+
+.card:hover p strong {
+    color: #1988ff;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+}
+
+.card:hover #stars i {
+    font-size: 20px;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
 }
 
 .card img {
@@ -394,6 +417,7 @@ body, html {
 
 .fourth-section-box {
     padding: 50px 100px;
+    padding-top: 150px;
 }
 
 .fourth-section-content-1 {
