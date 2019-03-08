@@ -1,8 +1,7 @@
 * {
-    /* font-family: 'Nunito Sans', sans-serif; */
+    font-family: 'Nunito Sans', sans-serif;
     padding: 0;
     margin: 0;
-    font-family: 'montserrat', sans-serif;
 }
 
 body, html {
@@ -125,6 +124,26 @@ body, html {
     left: 50%;
     bottom: 0;
     transform: translate(-50%);
+    animation: 3s arrow infinite ease;
+    -webkit-animation: 3s arrow infinite ease;
+}
+
+@keyframes arrow {
+    0%, 100% {
+        bottom: 0px;
+    }
+    50% {
+        bottom: 20px;
+    }
+}
+
+@-webkit-keyframes arrow {
+    0%, 100% {
+        bottom: 0px;
+    }
+    50% {
+        bottom: 20px;
+    }
 }
 
 .arrow a {
