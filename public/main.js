@@ -7,12 +7,12 @@ $(document).ready(function () {
 
     });
 
-    $('ul.tabs a').on('click', function() {
+    // $('ul.tabs a').on('click', function() {
 
-        $('ul.tabs a.active').removeClass('active');
-        $(this).addClass('active');
+    //     $('ul.tabs a.active').removeClass('active');
+    //     $(this).addClass('active');
 
-    });
+    // });
 
     // functionality for scrolling down 
     $('#arrow-btn').on('click', () => {
