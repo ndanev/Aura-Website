@@ -105,6 +105,7 @@ body, html {
 .first-section-content h4 {
     color: white;
     font-size: 1.5em;
+    letter-spacing: 1px;
     text-transform: uppercase;
     margin-bottom: 70px;
 }
