@@ -2,7 +2,7 @@
     font-family: 'Nunito Sans', sans-serif;
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 
 body, html {
@@ -656,10 +656,61 @@ body, html {
     color: #1988ff;
 }
 
-@media only screen and (max-width: 600px) {
+/* ================================= */
+/* media query for responsive design */
+/* ================================= */
+
+@media screen 
+    and (max-width: 600px) {
+
+    .main-navbar {
+        position: absolute;
+    }
+
+    .main-navbar h3 {
+        font-size: 25px;
+    }
+
     .list-of-links {
         display: none;
     }
+
+    .first-section-content {
+        font-size: 12px;
+    }
+
+    .second-section-content-1 {
+        width: 100%;
+    }
+
+    .second-section-content-1 i {
+        font-size: 30px;
+    }
+
+    .second-section-content-1 h2 {
+        font-size: 35px;
+    }
+
+    .second-section-content-1 h4 {
+        font-size: 15px;
+    }
+
+    .second-section-content-2 {
+        text-align: center;
+    }
+
+    .second-section-content-3 {
+        text-align: center;
+    }
+
+    .second-section-content-4 {
+        text-align: center;
+    }
+
+    .info-content-1 h2 {
+        font-size: 25px;
+    }
+
     .card {
         margin: 20px 0 20px 0;
     }
